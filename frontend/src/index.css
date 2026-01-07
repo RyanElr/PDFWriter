@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Indique à Tailwind quels fichiers scanner pour générer les classes */
+@source "../index.html" "./**/*.{ts,tsx,js,jsx,html}";
+
+@theme {
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+    "Segoe UI", sans-serif;
+}
